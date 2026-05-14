@@ -1,0 +1,64 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# PDF/image outputs
+*.png
+*.jpg
+*.jpeg
+
+# Temporary files
+tmp/
+temp/
+
+# Model files
+*.ckpt
+*.bin
+*.pt
+*.pth
+
+# HuggingFace cache
+.cache/
