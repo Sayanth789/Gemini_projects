@@ -50,7 +50,8 @@ I want the response in one single string having the structure
 
 
 # Streamlit app 
-st.title("Smart ATS")
+st.markdown("*This is a test* **App**")
+st.title("`Smart ATS`")
 st.text("Imporve Your Resumt ATS")
 jd = st.text_area("Paste the Job Description")
 uploaded_file=st.file_uploader("Upload Your Resume", type="pdf", help="Please upload the pdf")
