@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+genv/
+
+# Environment variables (VERY IMPORTANT)
+.env
+
+# Streamlit
+.streamlit/
+
+# FAISS vector database (generated locally)
+faiss_index/
+
+# Uploaded / processed data (optional but recommended)
+us_census/
+uploads/
+data/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter (if used)
+.ipynb_checkpoints/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
